@@ -1,0 +1,57 @@
+// ==========================================================================
+// MODULES/_POST-FILTERS.SCSS
+// ==========================================================================
+
+.post-filters {
+  .filters {
+    margin-bottom: 60px;
+    background: $constellation;
+
+    ul {
+      text-align: center;
+
+      li {
+        display: inline-block;
+        color: $steel-pipes;
+        font-size: 14px;
+
+        a {
+          color: $white;
+          display: block;
+          text-decoration: none;
+          padding: 2px;
+          text-transform: uppercase;
+
+          &:hover,
+          &:focus {
+            color: $tomkum;
+          }
+        }
+      }
+    }
+  }
+}
+
+// active nav items
+.blog .filters ul li.active a,
+.category-team .filters li a.team,
+.category-artists .filters li a.artists,
+.term-post-format-video .filters li a.videos {
+  color: $tomkum;
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+  .post-filters {
+    .filters {
+      ul {
+        li {
+          font-size: 16px;
+
+          a {
+            padding: 2px 10px;
+          }
+        }
+      }
+    }
+  }
+}

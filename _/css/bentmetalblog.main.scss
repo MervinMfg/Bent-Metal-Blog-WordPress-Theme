@@ -1,0 +1,39 @@
+// ==========================================================================
+// MAIN.SCSS
+// ==========================================================================
+
+// 1516 Bent Metal Binding Works Theme Template - http://www.bentmetal.com
+// Author: brian.behrens@mervin.com & tony.keller@mervin.com - http://www.mervin.com
+// bentmetal.main.css & bentmetal.main.min.css are compiled using the imports from this file.
+// To add new styles and components, import them in the appropriate sections below.
+
+// Helpers
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/reset";
+
+// Base
+@import "base/fonts";
+@import "base/forms";
+@import "base/links";
+@import "base/lists";
+@import "base/media";
+@import "base/typography";
+@import "base/utility";
+
+// Components
+@import "components/blog";
+@import "components/footer";
+@import "components/gallery";
+@import "components/global";
+@import "components/header";
+@import "components/search";
+
+// Libraries
+@import "lib/bootstrap";
+@import "lib/slick";
+@import "lib/slick-theme";
+
+// Modules
+@import "modules/featured-post";
+@import "modules/post-filters";

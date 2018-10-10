@@ -1,0 +1,53 @@
+// ==========================================================================
+// COMPONENTS/_GALLERY.SCSS
+// ==========================================================================
+
+.gallery {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.gallery-item {
+  outline: none;
+
+  img {
+    margin: 0 auto;
+  }
+
+  .gallery-caption {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.gallery-nav-thumb {
+  margin: 0 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.gallery-nav-thumb:not(.slick-current) {
+  img {
+    opacity: .65;
+  }
+}
+
+.gallery-nav {
+  padding-bottom: 30px;
+  clear: both;
+}
+
+.gallery {
+  .portrait {
+    img {
+      max-height: 640px !important;
+      width: auto !important;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+  .gallery-nav-thumb {
+    margin: 0 10px;
+  }
+}
