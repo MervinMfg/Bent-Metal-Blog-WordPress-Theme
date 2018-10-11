@@ -27,7 +27,8 @@
                 <p class="entry-meta">
             			<time datetime="<?php the_time('c') ?>"><span itemprop="datePublished"><?php the_time('F jS, Y') ?></span></time>
                 </p>
-                <div class="addthis_inline_share_toolbox"></div>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_custom_sharing"></div> 
               </div><!-- .entry-header -->
         			<div class="entry-content" itemprop="articleBody">
 

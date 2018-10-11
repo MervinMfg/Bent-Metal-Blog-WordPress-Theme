@@ -41,7 +41,7 @@
                   <div class="post-text-wrapper col-ms-8 col-sm-12">
                     <div class="post-meta">
                       <time datetime="<?php the_time('c'); ?>"><?php echo the_time('F jS, Y'); ?></time>
-                      <h4 class="post-category">GNU <?php echo $mainCategory; ?></h4>
+                      <h4 class="post-category">BENT METAL <?php echo $mainCategory; ?></h4>
                     </div><!-- .post-meta -->
                     <h3 class="post-title"><?php the_title(); ?></h3>
                   </div>

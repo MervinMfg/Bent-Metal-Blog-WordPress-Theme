@@ -294,7 +294,7 @@
   }
 
   // social share
-  .addthis_inline_share_toolbox {
+  .addthis_custom_sharing {
     margin-bottom: 30px;
 
     .at-share-btn {
@@ -385,6 +385,11 @@
       }
     }
   }
+}
+
+// post comments
+#respond {
+  margin-top: 60px;
 }
 
 @media screen and (min-width: $breakpoint-small) {

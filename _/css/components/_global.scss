@@ -90,8 +90,6 @@
   margin-bottom: 50px;
 
   .slick-slide {
-    padding: 0 5px;
-
     .gallery-nav-thumb {
       cursor: pointer;
     }
@@ -103,8 +101,8 @@
 }
 
 #disqus_thread {
-  margin: 0 auto;
-  max-width: $breakpoint-large;
+  margin: 50px auto 0;
+  max-width: $breakpoint-xlarge;
   padding: 10px 20px;
 }
 
