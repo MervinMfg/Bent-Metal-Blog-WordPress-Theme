@@ -27,13 +27,19 @@
 <!DOCTYPE html>
 <html class="no-js" <?php language_attributes(); ?>>
 <head id="www-bentmetal-com" data-template-set="bentmetal-blog-wordpress-theme">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-P4QQCNP');</script>
+	<!-- End Google Tag Manager -->
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php echo $GLOBALS['pageTitle']; ?></title>
 	<meta name="description" content="<?php echo $pageDescription; ?>" />
 	<meta name="author" content="Bent Metal Binding Works" />
 	<meta name="Copyright" content="Copyright Bent Metal Binding Works <?php echo date('Y'); ?>. All Rights Reserved." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="google-site-verification" content="xxx" />
 <?php if (is_search()) echo "\t" . '<meta name="robots" content="noindex, nofollow" />' . "\n"; ?>
 	<meta property="og:title" content="<?php echo $GLOBALS['pageTitle']; ?>" />
 	<meta property="og:description" content="<?php echo $pageDescription; ?>" />
@@ -47,8 +53,12 @@
 	<meta itemprop="image" content="<?php echo $GLOBALS['pageImage']; ?>" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@bent_metal" />
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/_/img/favicon.ico" />
-	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/_/img/apple-touch-icon-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/_/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/_/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/_/img/favicon-16x16.png">
+	<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/_/img/site.webmanifest">
+	<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/_/img/safari-pinned-tab.svg" color="#f00000">
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/_/img/favicon.ico">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<!-- header includes -->
@@ -58,12 +68,18 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4QQCNP"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<!-- Begin Wrapper -->
 	<div id="wrapper">
 		<header>
 			<div class="header-wrapper">
 				<div class="logos-wrapper" itemscope itemtype="https://schema.org/Organization">
-					<a href="https://prod.bentmetal.com" id="logo" class="site-title" rel="home" itemprop="url">
+					<a href="https://www.bentmetal.com" id="logo" class="site-title" rel="home" itemprop="url">
 						<img src="<?php echo get_template_directory_uri(); ?>/_/img/bent-metal-logo2.png" alt="Bent Metal Binding Works logo" />
 					</a>
 				</div><!-- .logos-wrapper -->
